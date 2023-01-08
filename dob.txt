@@ -1,0 +1,59 @@
+// // import inquirer from "inquirer";
+// // import chalk from "chalk";
+
+// // let date = new Date();
+// // let years = date.getFullYear();
+// // let months = date.getMonth();
+// // let days = date.getDate();
+
+// // console.log(months);
+
+// // let bd = await inquirer.prompt([
+// //   {
+// //     name: "years",
+// //     type: "number",
+// //     message: "Enter Your year of birth",
+// //   },
+// //   {
+// //     name: "months",
+// //     type: "number",
+// //     message: "Enter Your month of birth",
+// //   },
+// //   {
+// //     name: "day",
+// //     type: "number",
+// //     message: "Enter Your day of birth",
+// //   },
+// // ]);
+
+// // console.log(
+// //   chalk.blue(
+// //     `In sha Allah After ${months + bd.months - 1} month ${
+// //       days + bd.day
+// //     } days you will celebrate the birthday and you will be ${
+// //       years - bd.years
+// //     } years old`
+// //   )
+// // );
+
+// let teacher = {
+//   name: "Zeeshan",
+//   experience: "10",
+// };
+
+// console.log(teacher.name);
+// console.log(teacher.experience);
+
+// // Type Declaration
+// let student: {
+//   name: string;
+//   age: number;
+// };
+
+// student = {
+//   name: "Hira",
+//   age: 30,
+// };
+
+// console.log(student["name"]);
+// console.log(student.age);
