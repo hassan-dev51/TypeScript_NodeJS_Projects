@@ -1,6 +1,6 @@
 import chalk from "chalk";
 import inquirer from "inquirer";
-console.log(chalk.rgb(255, 102, 0)(`number gussing game`));
+console.log(chalk.rgb(255, 102, 0)(`number guessing game`));
 console.log(chalk.bold(`IN THIS GAME YOU HAVE 3 CHANCE TO FIND THE HIDDEN NUMBER .\n\n `));
 const player_name = await inquirer.prompt([
     {
